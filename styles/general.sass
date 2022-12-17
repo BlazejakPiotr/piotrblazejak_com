@@ -1,0 +1,98 @@
+ul
+    list-style: none
+a
+    color: #8484AF
+    
+header
+    height: 77px
+    display: flex
+    align-items: center
+    >div 
+        display: flex
+        justify-content: flex-end
+        align-items: center
+        width: 100%
+        max-width: 1250px
+        margin: auto
+    div>nav>ul
+        display: flex
+        gap: 42px
+    a 
+        font-weight: 400
+        font-size: 16px
+    li
+        margin: 12px 12px 0 12px
+        padding-bottom: 12px
+
+    .active 
+        border-bottom: 3px solid #E84646
+    .active>a
+        font-weight: 700
+        color: #BECCE9
+main
+    max-width: 1250px
+    margin: auto
+    min-height: calc(100vh - 77px - 70px)
+    display: flex
+    justify-content: center
+    align-items: center
+    .projects-list
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+    .home
+        .text
+            font-size: 36px
+            font-weight: 800
+            color: #BECCE9
+            margin-bottom: 12px
+        span
+            margin-bottom: 12px
+    .btn-outline
+        cursor: pointer
+        padding: 12px 24px
+        border: 0
+        background-color: inherit
+        color: #BECCE9
+        border: 1px solid #BECCE9
+        border-radius: 4px
+        font-weight: 400
+        font-size: 16px
+        letter-spacing: 1px
+        &:hover
+            background-color: #E84646
+            color: #eaf1ff
+            border: 1px solid #E84646
+
+    
+footer
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    
+    >div
+        height: 70px
+        background-color: #07071e
+        position: relative
+        max-width: 1250px
+        margin: auto
+        display: flex
+        align-items: flex-end
+        justify-content: flex-end
+        >p
+            padding: 15px 0
+            font-size: 12px
+    .socials
+        display: flex
+        flex-direction: column
+        align-items: center
+        font-size: 24px
+        gap: 24px
+        position: absolute
+        left: -100px
+        >div
+            width: 1px
+            height: 90px
+            background-color: #8484AF
+ 

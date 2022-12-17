@@ -1,0 +1,84 @@
+{
+  "about": {
+    "workexp": [
+      {
+        "id": "farma-michal-malecki",
+        "company": "Farma Michał Małecki",
+        "started": "2018/10",
+        "finished": "2020/10",
+        "title": "E-commerce specialist",
+        "details": [
+          "Lorem ipsum dolor sit amet.",
+          "Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar."
+        ]
+      },
+      {
+        "id": 1,
+        "company": "DEMCAR",
+        "started": "2014/04",
+        "finished": "2018/10",
+        "title": "E-commerce specialist",
+        "details": [
+          "Lorem ipsum dolor sit amet.",
+          "Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar.",
+          "Lorem ipsum dolor sit amet."
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "poker-tournament-manager",
+      "title": "Poker Tournament Manager",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, provident saepe. Qui soluta voluptates fuga eum iure dignissimos neque, dolores magnam blanditiis optio quae quaerat ea, culpa dolorum, corporis iusto.",
+      "language": "JavaScript",
+      "framework": "React",
+      "logo": "ptm.jpg",
+      "tools": ["React", "Redux", "Bootstrap"],
+      "links": {
+        "design": "",
+        "code": "",
+        "preview": ""
+      },
+      "screenshots": [
+        { "id": 0, "url": "spotify.png" },
+        { "id": 1, "url": "spotify.png" }
+      ]
+    },
+
+    {
+      "id": "spotify-clone",
+      "title": "Spotify Clone",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, provident saepe. Qui soluta voluptates fuga eum iure dignissimos neque, dolores magnam blanditiis optio quae quaerat ea, culpa dolorum, corporis iusto.",
+      "language": "TypeScript",
+      "logo": "spotify.jpg",
+      "tools": ["React", "Redux", "Bootstrap"],
+      "links": {
+        "design": "",
+        "code": "",
+        "preview": ""
+      },
+      "screenshots": [
+        { "id": 0, "url": "spotify.png" },
+        { "id": 1, "url": "spotify.png" }
+      ]
+    },
+    {
+      "id": "fpv-shot",
+      "title": "FPV Shot",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, provident saepe. Qui soluta voluptates fuga eum iure dignissimos neque, dolores magnam blanditiis optio quae quaerat ea, culpa dolorum, corporis iusto.",
+      "language": "JavaScript",
+      "logo": "fpvshot.jpg",
+      "tools": ["React", "Redux", "Bootstrap"],
+      "links": {
+        "design": "",
+        "code": "",
+        "preview": ""
+      },
+      "screenshots": [
+        { "id": 0, "url": "spotify.png" },
+        { "id": 1, "url": "spotify.png" }
+      ]
+    }
+  ]
+}
