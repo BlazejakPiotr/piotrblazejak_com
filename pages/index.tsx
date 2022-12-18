@@ -23,7 +23,7 @@ export default function Home({ data }: any) {
         />
       </Head>
 
-      <HomePage data={data} />
+      <HomePage />
     </>
   );
 }

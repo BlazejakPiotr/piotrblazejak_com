@@ -1,7 +1,9 @@
 ul
-    list-style: none
+   list-style: none
 a
     color: #8484AF
+p
+    text-align: justify
     
 header
     height: 77px
@@ -32,14 +34,32 @@ header
 main
     max-width: 1250px
     margin: auto
+    margin-bottom: 50px
     min-height: calc(100vh - 77px - 70px)
     display: flex
     justify-content: center
     align-items: center
+    >div 
+        display: flex
+        flex-wrap: wrap
+        gap: 30px
+    .section-title
+        flex: 1 100%
+        color: #E84646
+        font-weight: 700
+        justify-content: flex-start
+
+    .section-subtitle
+    
+        color: #BECCE9
+        font-weight: 600
+        margin-bottom: 12px
+  
     .projects-list
         display: flex
         flex-wrap: wrap
         justify-content: space-between
+        gap: 12px
     .home
         .text
             font-size: 36px
@@ -63,7 +83,70 @@ main
             background-color: #E84646
             color: #eaf1ff
             border: 1px solid #E84646
+    .work-exp-item
+        padding: 18px 0
+ 
+        border-bottom: 1px solid #fff
+        h4
+            font-weight: 600
+            font-size: 16px
+            color: #E84646
+            margin-bottom: 8px
+        ul
+            margin-inline-start: 30px
+            list-style: disc
+            font-size: 14px
+    .skills-container
+        display: flex
+        flex-wrap: wrap
+        gap: 12px
+    .skill-item
+        color: #BECCE9
+        padding: 6px 12px
+        border: 1px solid #BECCE9
+        border-radius: 5px
+        font-size: 12px
+    .card
+        position: relative
+        width: 400px
+        height: 300px
+        flex: 1 30%
+        background-size: contain
+        .card-data
+            display: none
+            position: absolute
+            top: 0
+            left: 0
+            width: inherit
+            height: inherit
+            background-color: #fff
+    .project-container
+        max-width: 700px
+        >img
+            border-bottom: 2px solid #E84646
 
+    .contact-container
+        max-width: 400px
+    .form-container
+        width: 100%
+        display: flex
+        flex-direction: column
+        label
+            margin-bottom: 6px
+        input
+            border: 1px solid #8484AF
+            border-radius: 6px
+            padding: 12px 
+            background-color: #f1f1f1
+            color: #000
+            margin-bottom: 20px
+        textarea
+            border: 1px solid #8484AF
+            border-radius: 6px
+            padding: 12px 
+            background-color: #f1f1f1
+            color: #000
+            margin-bottom: 20px
     
 footer
     position: absolute
@@ -72,7 +155,7 @@ footer
     right: 0
     
     >div
-        height: 70px
+        height: 50px
         background-color: #07071e
         position: relative
         max-width: 1250px

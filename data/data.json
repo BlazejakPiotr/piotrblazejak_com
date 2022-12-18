@@ -1,31 +1,55 @@
 {
-  "about": {
-    "workexp": [
-      {
-        "id": "farma-michal-malecki",
-        "company": "Farma Michał Małecki",
-        "started": "2018/10",
-        "finished": "2020/10",
-        "title": "E-commerce specialist",
-        "details": [
-          "Lorem ipsum dolor sit amet.",
-          "Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar."
-        ]
-      },
-      {
-        "id": 1,
-        "company": "DEMCAR",
-        "started": "2014/04",
-        "finished": "2018/10",
-        "title": "E-commerce specialist",
-        "details": [
-          "Lorem ipsum dolor sit amet.",
-          "Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar.",
-          "Lorem ipsum dolor sit amet."
-        ]
-      }
-    ]
-  },
+  "skills": [
+    "HTML/CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "React Native",
+    "NextJS",
+    "Redux",
+    "MobX",
+    "Bootstrap",
+    "Styled Components",
+    "Figma",
+    "Photoshop",
+    "Illustrator"
+  ],
+  "workexp": [
+    {
+      "id": "deor",
+      "company": "Deor sp. zoo",
+      "started": "2022/06",
+      "finished": "2022/09",
+      "title": "Junior React Native Developer",
+      "details": [
+        "Lorem ipsum dolor sit amet.",
+        "Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar."
+      ]
+    },
+    {
+      "id": "farma-michal-malecki",
+      "company": "Farma Michał Małecki",
+      "started": "2018/10",
+      "finished": "2020/10",
+      "title": "E-commerce specialist",
+      "details": [
+        "Lorem ipsum dolor sit amet.",
+        "Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar."
+      ]
+    },
+    {
+      "id": "demcar",
+      "company": "Demcar",
+      "started": "2014/04",
+      "finished": "2018/10",
+      "title": "E-commerce specialist",
+      "details": [
+        "Lorem ipsum dolor sit amet.",
+        "Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar.",
+        "Lorem ipsum dolor sit amet."
+      ]
+    }
+  ],
   "projects": [
     {
       "id": "poker-tournament-manager",
